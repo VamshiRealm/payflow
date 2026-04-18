@@ -1,0 +1,74 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "JWT signing secret key"
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "JWT token expiration in milliseconds"
+    },
+    {
+      "name": "rate.limit.requests",
+      "type": "java.lang.Integer",
+      "description": "Maximum requests allowed per window"
+    },
+    {
+      "name": "rate.limit.window",
+      "type": "java.lang.Integer",
+      "description": "Rate limit time window in seconds"
+    },
+    {
+      "name": "spring.kafka.bootstrap-servers",
+      "type": "java.lang.String",
+      "description": "Kafka bootstrap servers"
+    },
+    {
+      "name": "spring.kafka.consumer.group-id",
+      "type": "java.lang.String",
+      "description": "Kafka consumer group ID"
+    },
+    {
+      "name": "spring.kafka.consumer.auto-offset-reset",
+      "type": "java.lang.String",
+      "description": "Kafka consumer auto offset reset policy"
+    },
+    {
+      "name": "spring.kafka.consumer.key-deserializer",
+      "type": "java.lang.String",
+      "description": "Kafka consumer key deserializer class"
+    },
+    {
+      "name": "spring.kafka.consumer.value-deserializer",
+      "type": "java.lang.String",
+      "description": "Kafka consumer value deserializer class"
+    },
+    {
+      "name": "spring.kafka.producer.key-serializer",
+      "type": "java.lang.String",
+      "description": "Kafka producer key serializer class"
+    },
+    {
+      "name": "spring.kafka.producer.value-serializer",
+      "type": "java.lang.String",
+      "description": "Kafka producer value serializer class"
+    },
+    {
+      "name": "spring.kafka.producer.properties.max.block.ms",
+      "type": "java.lang.Long",
+      "description": "Kafka producer max block milliseconds"
+    },
+    {
+      "name": "spring.kafka.producer.properties.request.timeout.ms",
+      "type": "java.lang.Long",
+      "description": "Kafka producer request timeout milliseconds"
+    },
+    {
+      "name": "spring.kafka.consumer.properties.session.timeout.ms",
+      "type": "java.lang.Long",
+      "description": "Kafka consumer session timeout milliseconds"
+    }
+  ]
+}
